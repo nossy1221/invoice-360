@@ -83,7 +83,7 @@ const Navbar = ({ toggleSidebar }) => {
                             <div className="dropdown-divider"></div>
                             <div className="dropdown-item text-danger" onClick={handleLogout}>
                                 <LogOut size={16} />
-                                <span>Logout</span>
+                                <span>logout</span>
                             </div>
                         </div>
                     )}
