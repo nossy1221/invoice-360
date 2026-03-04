@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #f7fff0 0%, #e5ffe0 100%);
+    background: linear-gradient(135deg, #f0faf8 0%, #e0f5f2 100%);
     position: relative;
     overflow: hidden;
 }
@@ -90,6 +90,12 @@
 .login-header {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.login-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 0.75rem;
 }
 
 .logo-text {

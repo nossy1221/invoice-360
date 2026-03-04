@@ -30,7 +30,7 @@
 
 /* Actions */
 .pretn-btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -86,7 +86,7 @@
 
 .pretn-search-input:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -298,7 +298,7 @@
 .pretn-input:focus,
 .pretn-select:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -371,7 +371,7 @@
 .pretn-btn-save {
     padding: 10px 24px;
     border-radius: 8px;
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     font-weight: 600;

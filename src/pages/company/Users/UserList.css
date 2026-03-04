@@ -37,7 +37,7 @@
 }
 
 .role-badge {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     font-size: 0.7rem;
     font-weight: 700;
@@ -118,7 +118,7 @@
     height: 200px;
     border-radius: 12px;
     padding: 3px;
-    border: 2px solid #8ce043;
+    border: 2px solid #54b1a6;
     margin-bottom: 1rem;
     overflow: hidden;
 }
@@ -144,14 +144,14 @@
 
 /* Add New User Card */
 .add-user-card {
-    border: 2px solid #8ce043;
+    border: 2px solid #54b1a6;
     background-color: #f8fafc;
     justify-content: center;
     cursor: pointer;
 }
 
 .add-icon-wrapper {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     width: 40px;
     height: 40px;
     border-radius: 8px;
@@ -232,11 +232,11 @@
 }
 
 input:checked+.slider {
-    background-color: #8ce043;
+    background-color: #54b1a6;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #8ce043;
+    box-shadow: 0 0 1px #54b1a6;
 }
 
 input:checked+.slider:before {

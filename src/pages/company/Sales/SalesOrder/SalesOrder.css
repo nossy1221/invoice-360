@@ -103,7 +103,7 @@
 
 .discount-input:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 2px rgba(140, 224, 67, 0.1);
 }
 
@@ -180,8 +180,8 @@
 
 .tracker-step.active .step-icon-wrapper {
     background: #f0fdf4;
-    color: #8ce043;
-    border-color: #8ce043;
+    color: #54b1a6;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 4px rgba(140, 224, 67, 0.1);
 }
 
@@ -191,7 +191,7 @@
 }
 
 .tracker-step.active .status-badge {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-divider {
@@ -294,7 +294,7 @@
 
 .mode-btn.active {
     background: white;
-    color: #8ce043;
+    color: #54b1a6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -323,7 +323,7 @@
 }
 
 .quote-link-card:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     background: #f0fdf4;
 }
@@ -635,7 +635,7 @@ table input {
 }
 
 .btn-primary-green {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 2rem;

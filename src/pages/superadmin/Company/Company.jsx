@@ -493,7 +493,7 @@ const Company = () => {
                             <button className="supercompany-btn-cancel" onClick={handleCreateModalClose}>Cancel</button>
                             <button
                                 className="supercompany-btn-create"
-                                style={{ backgroundColor: '#84cc16' }} // Lime green from image
+                                style={{ backgroundColor: '#54b1a6' }} // Lime green from image
                                 onClick={handleCreateOrUpdate}
                             >
                                 {editingCompany ? 'Update' : 'Create'}

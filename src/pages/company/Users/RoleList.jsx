@@ -313,7 +313,7 @@ const RoleList = () => {
                         </div>
                         <div className="modal-footer">
                             <button className="btn-cancel" onClick={handleCloseModal}>Cancel</button>
-                            <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={() => handleSubmit(showEditModal)}>
+                            <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={() => handleSubmit(showEditModal)}>
                                 {showEditModal ? 'Update' : 'Create'}
                             </button>
                         </div>

@@ -401,7 +401,7 @@ const UserList = () => {
                         </div>
                         <div className="modal-footer">
                             <button className="btn-cancel-dark" onClick={() => setShowAddModal(false)}>Cancel</button>
-                            <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={handleCreateUser}>Create</button>
+                            <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={handleCreateUser}>Create</button>
                         </div>
                     </div>
                 </div>
@@ -463,7 +463,7 @@ const UserList = () => {
                         </div>
                         <div className="modal-footer">
                             <button className="btn-cancel-dark" onClick={() => setShowEditModal(false)}>Cancel</button>
-                            <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={handleUpdateUser}>Update User</button>
+                            <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={handleUpdateUser}>Update User</button>
                         </div>
                     </div>
                 </div>
@@ -541,7 +541,7 @@ const UserList = () => {
                         </div>
                         <div className="modal-footer">
                             <button className="btn-cancel-dark" onClick={() => setShowResetModal(false)}>Cancel</button>
-                            <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={handleResetPassword}>Reset Password</button>
+                            <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={handleResetPassword}>Reset Password</button>
                         </div>
                     </div>
                 </div>
@@ -583,7 +583,7 @@ const UserList = () => {
                             </div>
                             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end', width: '100%' }}>
                                 <button className="btn-cancel" onClick={() => setShowCropModal(false)}>Cancel</button>
-                                <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={handleCropSave}>Save Crop</button>
+                                <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={handleCropSave}>Save Crop</button>
                             </div>
                         </div>
                     </div>

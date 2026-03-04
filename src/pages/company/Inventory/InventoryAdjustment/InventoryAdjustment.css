@@ -92,7 +92,7 @@
 .radio-label input[type="radio"] {
     width: 18px;
     height: 18px;
-    accent-color: #8ce043;
+    accent-color: #54b1a6;
 }
 
 .footer-flex-row {
@@ -136,7 +136,7 @@
 }
 
 .items-input-table input.table-input:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 2px rgba(140, 224, 67, 0.2);
 }
 

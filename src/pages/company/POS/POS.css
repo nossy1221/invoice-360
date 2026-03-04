@@ -77,11 +77,11 @@
 
 .companypos-category-pill:hover {
     background: #f8fafc;
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .companypos-category-pill.companypos-active {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
 }
@@ -127,7 +127,7 @@
 .companypos-product-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 .companypos-product-image-placeholder {
@@ -170,7 +170,7 @@
 .companypos-product-price {
     font-size: 1.25rem;
     font-weight: 800;
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .companypos-stock-badge {
@@ -361,7 +361,7 @@
 
 .companypos-control-select:focus,
 .companypos-control-input:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 2px rgba(140, 224, 67, 0.2);
     /* Fixed ring property to box-shadow */
 }
@@ -381,7 +381,7 @@
 
 .companypos-checkout-btn {
     width: 100%;
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     padding: 1.1rem;
@@ -515,16 +515,16 @@
 }
 
 .companypos-method-card:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     background: #f0fdf4;
 }
 
 .companypos-method-card.active {
     background: #f0fdf4;
-    border-color: #8ce043;
-    /* Verified #8ce043 */
+    border-color: #54b1a6;
+    /* Verified #54b1a6 */
     color: #166534;
-    box-shadow: 0 0 0 2px #8ce043;
+    box-shadow: 0 0 0 2px #54b1a6;
 }
 
 .companypos-notes-input {
@@ -543,7 +543,7 @@
 
 .companypos-notes-input:focus {
     background: white;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -576,7 +576,7 @@
     padding: 0.8rem 2rem;
     border-radius: 10px;
     border: none;
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -588,7 +588,7 @@
 }
 
 .companypos-btn-success:hover {
-    background: #8ce043;
+    background: #54b1a6;
     transform: translateY(-1px);
 }
 
@@ -746,7 +746,7 @@
     padding: 0.8rem;
     color: white;
     font-size: 0.85rem;
-    background: #8ce043;
+    background: #54b1a6;
     /* Default Green for POS */
 }
 

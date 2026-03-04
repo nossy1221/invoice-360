@@ -26,7 +26,7 @@
 }
 
 .superplan-btn-add-plan {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -142,11 +142,11 @@
 }
 
 .superplan-bg-pro {
-    background-color: #8ce043;
+    background-color: #54b1a6;
 }
 
 .superplan-status-badge {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     padding: 2px 8px;
     border-radius: 4px;
@@ -248,9 +248,9 @@
 }
 
 .superplan-page-btn.active {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 .superplan-page-btn:disabled {
@@ -383,7 +383,7 @@
 
 .superplan-form-group input:focus,
 .superplan-form-group select:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
 }
 
@@ -417,7 +417,7 @@
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: #8ce043;
+    accent-color: #54b1a6;
 }
 
 .superplan-price-input-wrapper {
@@ -465,8 +465,8 @@
 }
 
 .superplan-add-btn-small:hover {
-    border-color: #8ce043;
-    color: #8ce043;
+    border-color: #54b1a6;
+    color: #54b1a6;
 }
 
 .superplan-remove-btn-small:hover {
@@ -497,7 +497,7 @@
 .superplan-submit-btn {
     padding: 0.6rem 1.2rem;
     border-radius: 8px;
-    background-color: #8ce043;
+    background-color: #54b1a6;
     /* Teal for primary action */
     color: white;
     font-weight: 600;

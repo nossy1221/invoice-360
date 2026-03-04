@@ -727,7 +727,7 @@ const Payment = () => {
                                 </div>
                                 <div className="footer-right">
                                     <button className="btn-cancel" onClick={() => setShowAddModal(false)}>Cancel</button>
-                                    <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} disabled={!selectedInvoice} onClick={handleSave}>
+                                    <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} disabled={!selectedInvoice} onClick={handleSave}>
                                         {isEditMode ? 'Update Payment' : 'Save Payment'}
                                     </button>
                                 </div>

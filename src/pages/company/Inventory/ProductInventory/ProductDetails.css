@@ -192,7 +192,7 @@
 .pd-value-amt {
     font-size: 1.5rem;
     font-weight: 800;
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .pd-price-row {
@@ -310,7 +310,7 @@
 }
 
 .pd-text-blue {
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 600;
 }
 
@@ -352,7 +352,7 @@
 }
 
 .pd-tab-active {
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 600;
 }
 
@@ -363,7 +363,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: #8ce043;
+    background: #54b1a6;
 }
 
 /* History Controls */
@@ -401,7 +401,7 @@
 }
 
 .pd-input:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 

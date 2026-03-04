@@ -36,7 +36,7 @@ const ProductDetails = () => {
     if (loading) {
         return (
             <div className="pd-loading">
-                <Loader2 className="animate-spin" style={{ color: '#8ce043' }} size={32} />
+                <Loader2 className="animate-spin" style={{ color: '#54b1a6' }} size={32} />
             </div>
         );
     }
@@ -45,7 +45,7 @@ const ProductDetails = () => {
         return (
             <div className="pd-not-found">
                 <h2 className="text-xl font-bold text-gray-700">Product not found</h2>
-                <button onClick={() => navigate('/company/inventory/products')} className="mt-4 hover:underline" style={{ color: '#8ce043' }}>
+                <button onClick={() => navigate('/company/inventory/products')} className="mt-4 hover:underline" style={{ color: '#54b1a6' }}>
                     Back to Inventory
                 </button>
             </div>

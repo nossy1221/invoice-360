@@ -25,7 +25,7 @@
 }
 
 .btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 1.25rem;
@@ -249,7 +249,7 @@
 /* Status Badges */
 .invoice-number-badge {
     display: inline-block;
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     padding: 0.4rem 0.75rem;
     border-radius: 6px;
@@ -518,7 +518,7 @@
 }
 
 .item-row:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 2px 4px rgba(140, 224, 67, 0.1);
 }
 

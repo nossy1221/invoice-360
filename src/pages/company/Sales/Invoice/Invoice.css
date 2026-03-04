@@ -89,8 +89,8 @@
 
 .tracker-step.active .step-icon-wrapper {
     background: #f0fdf4;
-    color: #8ce043;
-    border-color: #8ce043;
+    color: #54b1a6;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 4px rgba(140, 224, 67, 0.1);
 }
 
@@ -100,7 +100,7 @@
 }
 
 .tracker-step.active .status-badge {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-divider {
@@ -161,7 +161,7 @@
 .invoice-badge {
     display: inline-block;
     padding: 0.25rem 0.75rem;
-    border: 1.5px solid #8ce043;
+    border: 1.5px solid #54b1a6;
     color: #65a30d;
     background: #fff;
     border-radius: 6px;
@@ -673,7 +673,7 @@
 }
 
 .btn-primary-green {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 2rem;
@@ -688,7 +688,7 @@
 }
 
 .btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 1.25rem;
@@ -1323,7 +1323,7 @@
 
 .discount-input:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 2px rgba(140, 224, 67, 0.1);
 }
 
@@ -1358,7 +1358,7 @@
 }
 
 .sel-btn-p:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     background: #f0fdf4;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(140, 224, 67, 0.1);
@@ -1377,7 +1377,7 @@
 }
 
 .sel-btn-p:hover .sel-icon-p {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
 }
 
@@ -1529,7 +1529,7 @@
 .invoice-title {
     font-size: 3rem;
     font-weight: 800;
-    color: #8ce043;
+    color: #54b1a6;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
 }
@@ -1608,7 +1608,7 @@
 }
 
 .invoice-items-table thead {
-    background: #8ce043;
+    background: #54b1a6;
 }
 
 .invoice-items-table th {

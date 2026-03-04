@@ -191,7 +191,7 @@ const InventoryAdjustment = () => {
         <div className="adjustment-page">
             <div className="page-header">
                 <h1 className="page-title">Inventory Adjustment</h1>
-                <button className="btn-add" style={{ backgroundColor: '#8ce043' }} onClick={handleOpenAdd}>
+                <button className="btn-add" style={{ backgroundColor: '#54b1a6' }} onClick={handleOpenAdd}>
                     <Plus size={18} /> Add Inventory Adjustment
                 </button>
             </div>

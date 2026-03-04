@@ -4,9 +4,11 @@ import {
     Home, Building2, Ticket, CreditCard, Key,
     Users, ShoppingCart, Truck, FileText, ClipboardList,
     BarChart3, Settings, ChevronDown, ChevronRight, Box,
-    Calculator, Receipt, UserCog, Banknote, Scale, Coins, PieChart, Calendar
+    Calculator, Receipt, UserCog, Banknote, Scale, Coins, PieChart, Calendar,
+    Landmark, FileBarChart
 } from 'lucide-react';
 import './Sidebar.css';
+import logoImg from '../../assets/Images/logo.png';
 
 const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = false, onItemClick = () => { } }) => {
     const location = useLocation();
@@ -18,10 +20,6 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
             [groupName]: !prev[groupName]
         }));
     };
-
-    // ... menuItems definition ...
-
-    // ... hasPermission function ...
 
     const menuItems = {
         superadmin: [
@@ -37,19 +35,18 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
             {
                 label: 'User Management',
                 icon: Users,
-                perm: 'manage user', // Or check subitems
+                perm: 'manage user',
                 subItems: [
                     { path: '/company/users/list', label: 'Users', perm: 'manage user' },
                     { path: '/company/users/roles', label: 'Roles & Permissions', perm: 'manage role' },
-
                 ]
             },
             {
-                label: 'Client',
+                label: 'Clients',
                 icon: Users,
                 subItems: [
                     { path: '/company/client/new', label: 'New Client' },
-                    { path: '/company/client/all', label: 'All Client' },
+                    { path: '/company/client/all', label: 'All Clients' },
                 ]
             },
             {
@@ -57,12 +54,20 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
                 icon: ShoppingCart,
                 perm: 'show sales',
                 subItems: [
-                    { path: '/company/sales/quotation', label: 'Quotation', perm: 'show sales' },
-                    { path: '/company/sales/order', label: 'Sales Order', perm: 'show sales' },
-                    // { path: '/company/sales/challan', label: 'Delivery Challan', perm: 'show sales' },
+                    { path: '/company/sales/quotation', label: 'Quotes', perm: 'show sales' },
+                    { path: '/company/sales/order', label: 'Sales Orders', perm: 'show sales' },
                     { path: '/company/sales/invoice', label: 'Invoice', perm: 'show sales' },
-                    { path: '/company/sales/payment', label: 'Payment', perm: 'show sales' },
-                    { path: '/company/sales/return', label: 'Sales Return', perm: 'show sales' },
+                    { path: '/company/sales/payment', label: 'Payments', perm: 'show sales' },
+                ]
+            },
+            {
+                label: 'Statements',
+                icon: FileBarChart,
+                perm: 'manage reports',
+                subItems: [
+                    { path: '/company/reports/daybook', label: 'Day', perm: 'manage reports' },
+                    { path: '/company/reports/journal', label: 'Month', perm: 'manage reports' },
+                    { path: '/company/reports/ledger', label: 'Year', perm: 'manage reports' },
                 ]
             },
             {
@@ -70,30 +75,27 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
                 icon: Truck,
                 perm: 'manage purchases',
                 subItems: [
-                    { path: '/company/purchases/quotation', label: 'Purchase Quotation', perm: 'manage purchases' },
                     { path: '/company/purchases/order', label: 'Purchase Order', perm: 'manage purchases' },
-                    { path: '/company/purchases/receipt', label: 'Goods Receipt', perm: 'manage purchases' },
+                    { path: '/company/purchases/receipt', label: 'Goods Receipts', perm: 'manage purchases' },
                     { path: '/company/purchases/bill', label: 'Bill', perm: 'manage purchases' },
-                    { path: '/company/purchases/payment', label: 'Payment', perm: 'manage purchases' },
-                    { path: '/company/purchases/return', label: 'Purchase Return', perm: 'manage purchases' },
+                    { path: '/company/purchases/payment', label: 'Payments', perm: 'manage purchases' },
+                    { path: '/company/purchases/return', label: 'Purchase Returns', perm: 'manage purchases' },
                 ]
             },
             {
-                label: 'Account',
+                label: 'Accounting',
                 icon: Calculator,
                 perm: 'manage accounts',
                 subItems: [
                     { path: '/company/accounts/delivery-note', label: 'Delivery Note', perm: 'manage accounts' },
                     { path: '/company/accounts/credit-note', label: 'Credit Note', perm: 'manage accounts' },
-                    { path: '/company/accounts/charts', label: 'Charts of Accounts', perm: 'manage accounts', },
-                    { path: '/company/accounts/customers', label: 'Customers/Debtors', perm: 'manage accounts', },
-                    { path: '/company/accounts/vendors', label: 'Vendors/Creditors', perm: 'manage accounts', },
-                    { path: '/company/accounts/cash-flow', label: 'Cash Flow', perm: 'manage accounts', },
-                    { path: '/company/accounts/profit-loss', label: 'Profit & Loss', perm: 'manage accounts', },
-                    { path: '/company/accounts/balance-sheet', label: 'Balance Sheet', perm: 'manage accounts', },
-                    { path: '/company/accounts/expenses', label: 'Expenses', perm: 'manage accounts', },
-                    { path: '/company/accounts/vat-report', label: 'Vat Report', perm: 'manage accounts', },
-                    { path: '/company/accounts/tax-report', label: 'Tax Report', perm: 'manage accounts', },
+                    { path: '/company/accounts/charts', label: 'Purchases', perm: 'manage accounts' },
+                    { path: '/company/accounts/cash-flow', label: 'Cashflow', perm: 'manage accounts' },
+                    { path: '/company/accounts/profit-loss', label: 'Profit & Loss', perm: 'manage accounts' },
+                    { path: '/company/accounts/balance-sheet', label: 'Balance Sheet', perm: 'manage accounts' },
+                    { path: '/company/accounts/expenses', label: 'Expenses', perm: 'manage accounts' },
+                    { path: '/company/accounts/vat-report', label: 'Vat Report', perm: 'manage accounts' },
+                    { path: '/company/accounts/tax-report', label: 'Tax Report', perm: 'manage accounts' },
                 ]
             },
             {
@@ -101,19 +103,25 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
                 icon: Box,
                 perm: 'manage inventory',
                 subItems: [
-                    { path: '/company/inventory/warehouse', label: 'Warehouse', perm: 'manage inventory' },
-                    { path: '/company/inventory/products', label: 'Product & Inventory', perm: 'manage inventory' },
-                    { path: '/company/inventory/services', label: 'Service', perm: 'manage inventory' },
-
-
-                    { path: '/company/inventory/transfer', label: 'StockTransfer', perm: 'manage inventory' },
-                    { path: '/company/inventory/uom', label: 'Unit of measure', perm: 'manage inventory' },
-                    { path: '/company/inventory/adjustment', label: 'Inventory Adjustment', perm: 'manage inventory' },
+                    { path: '/company/inventory/warehouse', label: 'Store / Warehouse', perm: 'manage inventory' },
+                    { path: '/company/inventory/products', label: 'Product List', perm: 'manage inventory' },
+                    { path: '/company/inventory/services', label: 'Services', perm: 'manage inventory' },
+                    { path: '/company/inventory/voucher', label: 'Create Voucher', perm: 'manage inventory' },
+                    { path: '/company/inventory/transfer', label: 'Stock Transfer', perm: 'manage inventory' },
+                    { path: '/company/inventory/uom', label: 'Unit of Measure', perm: 'manage inventory' },
+                ]
+            },
+            {
+                label: 'Banking',
+                icon: Landmark,
+                perm: 'manage accounts',
+                subItems: [
+                    { path: '/company/banking/link', label: 'Link Bank Statement / Upload', perm: 'manage accounts' },
                 ]
             },
             {
                 label: 'Payroll',
-                icon: Banknote, // Using Banknote as a proxy for Payroll icon
+                icon: Banknote,
                 perm: 'manage payroll',
                 subItems: [
                     { path: '/company/payroll/employee', label: 'Employee Management', perm: 'manage payroll' },
@@ -121,38 +129,19 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
                     { path: '/company/payroll/generate', label: 'Generate Payroll', perm: 'manage payroll' },
                     { path: '/company/payroll/payslip-report', label: 'Payslip Report', perm: 'manage payroll' },
                     { path: '/company/payroll/payroll-report', label: 'Payroll Report', perm: 'manage payroll' },
-                    { path: '/company/payroll/setting', label: 'Payroll Setting', perm: 'manage payroll' },
+                    { path: '/company/payroll/setting', label: 'Payroll Settings', perm: 'manage payroll' },
                 ]
             },
-            {
-                label: 'Reports',
-                icon: BarChart3,
-                perm: 'manage reports',
-                subItems: [
-                    { path: '/company/reports/sales', label: 'Sales Report', perm: 'manage reports' },
-                    { path: '/company/reports/purchase', label: 'Purchase Report', perm: 'manage reports' },
-                    { path: '/company/reports/pos', label: 'POS Report', perm: 'manage reports' },
-                    // { path: '/company/reports/tax', label: 'Tax Report', perm: 'manage reports' },
-                    { path: '/company/reports/inventory-summary', label: 'Inventory Summary', perm: 'manage reports' },
-                    // { path: '/company/reports/balance-sheet', label: 'Balance Sheet', perm: 'manage reports' },
-                    // { path: '/company/reports/cash-flow', label: 'Cash Flow', perm: 'manage reports' },
-                    // { path: '/company/reports/profit-loss', label: 'Profit & Loss', perm: 'manage reports' },
-                    // { path: '/company/reports/vat', label: 'Vat Report', perm: 'manage reports' },
-                    { path: '/company/reports/daybook', label: 'DayBook', perm: 'manage reports' },
-                    { path: '/company/reports/journal', label: 'Journal Entries', perm: 'manage reports' },
-                    { path: '/company/reports/ledger', label: 'Ledger', perm: 'manage reports' },
-                    { path: '/company/reports/trial-balance', label: 'Trial Balance', perm: 'manage reports' },
-                    // { path: '/company/accounts/transactions', label: 'All Transaction', perm: 'manage reports' },
-                ]
-            },
-
             {
                 label: 'Settings',
                 icon: Settings,
                 perm: 'manage settings',
                 subItems: [
-                    { path: '/company/settings/info', label: 'Company Info', perm: 'manage settings' },
-                    // { path: '/company/settings/password-requests', label: 'Password Requests', perm: 'manage settings' },
+                    { path: '/company/settings/info', label: 'Company Information', perm: 'manage settings' },
+                    { path: '/company/settings/profile', label: 'User Profile', perm: 'manage settings' },
+                    { path: '/company/settings/banking', label: 'Banking Details', perm: 'manage settings' },
+                    { path: '/company/settings/invoice-quote', label: 'Invoice / Quote Settings', perm: 'manage settings' },
+                    { path: '/company/settings/payroll-payslip', label: 'Payroll / Payslip Settings', perm: 'manage settings' },
                 ]
             }
         ]
@@ -243,13 +232,7 @@ const Sidebar = ({ isOpen, role = 'superadmin', permissions = [], isAdmin = fals
     return (
         <div className={`sidebar ${isOpen ? 'open' : 'collapsed'}`}>
             <div className="logo">
-                <span className="logo-short">I<span className="logo-accent">360</span></span>
-
-                <span className="logo-full">
-                    <span className="logo-main">
-                        Invoice <span className="logo-accent">360</span>
-                    </span>
-                </span>
+                <img src={logoImg} alt="Invoice 360" className="logo-image" />
             </div>
 
             <div className="sidebar-menu">

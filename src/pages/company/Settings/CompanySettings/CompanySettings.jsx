@@ -57,7 +57,7 @@ const CompanySettings = () => {
     });
 
     const colors = [
-        '#004aad', '#4b5563', '#6366f1', '#ef4444', '#f59e0b', '#eab308', '#84cc16',
+        '#004aad', '#4b5563', '#6366f1', '#ef4444', '#f59e0b', '#eab308', '#54b1a6',
         '#06b6d4', '#8b5cf6', '#1e293b', '#0f172a', '#3b82f6', '#10b981', '#f43f5e',
         '#ffffff', '#000000'
     ];
@@ -505,7 +505,7 @@ const CompanySettings = () => {
                                         <select
                                             value={invoiceSettings.template}
                                             onChange={(e) => setInvoiceSettings({ ...invoiceSettings, template: e.target.value })}
-                                            style={{ padding: '0.8rem', borderColor: '#8ce043' }}
+                                            style={{ padding: '0.8rem', borderColor: '#54b1a6' }}
                                         >
                                             {templates.map(t => <option key={t} value={t}>{t}</option>)}
                                         </select>
@@ -553,7 +553,7 @@ const CompanySettings = () => {
                                         />
                                         <button
                                             className="companySetting-btn-upload"
-                                            style={{ backgroundColor: '#8ce043', color: 'white', border: 'none', width: '100%', justifyContent: 'center' }}
+                                            style={{ backgroundColor: '#54b1a6', color: 'white', border: 'none', width: '100%', justifyContent: 'center' }}
                                             onClick={() => handleUploadClick(invoiceLogoInputRef)}
                                         >
                                             <Upload size={16} /> Choose file here
@@ -564,7 +564,7 @@ const CompanySettings = () => {
                                         <button
                                             className="companySetting-btn-primary"
                                             onClick={handleSave}
-                                            style={{ backgroundColor: '#8ce043', width: '100%', justifyContent: 'center' }}
+                                            style={{ backgroundColor: '#54b1a6', width: '100%', justifyContent: 'center' }}
                                         >
                                             Save Changes
                                         </button>

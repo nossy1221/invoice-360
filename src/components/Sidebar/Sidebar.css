@@ -44,61 +44,18 @@
     gap: 6px;
     width: 100%;
     padding-bottom: 1rem;
+    justify-content: center;
 }
 
-/* SHORT LOGO (ZB) */
-.logo-short {
-    display: none;
-    font-size: 1.6rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: var(--text-main);
+.logo-image {
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    transition: max-width 0.3s ease;
 }
 
-/* FULL LOGO (Invoice 360) */
-.logo-full {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.logo-main {
-    font-weight: 800;
-    font-size: 2rem;
-    color: var(--text-main);
-    letter-spacing: -0.5px;
-}
-
-.logo-text-extra {
-    font-weight: 800;
-}
-
-.logo-accent {
-    font-weight: 800;
-    font-size: 2rem;
-    color: #8ce043;
-}
-
-/* LOGO STATE CONTROL */
-.sidebar.open .logo-full {
-    display: flex;
-}
-
-.sidebar.open .logo-short {
-    display: none;
-    font-weight: 800;
-    font-size: 2rem;
-
-}
-
-.sidebar.collapsed .logo-full {
-    display: none;
-}
-
-.sidebar.collapsed .logo-short {
-    display: block;
-    font-weight: 800;
-    font-size: 2rem;
+.sidebar.collapsed .logo-image {
+    max-width: 40px;
 }
 
 .sidebar.collapsed .logo {
@@ -192,9 +149,9 @@
 ================================ */
 .menu-item.active,
 .menu-item.active-parent {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
-    box-shadow: 0 4px 12px rgba(140, 224, 67, 0.25);
+    box-shadow: 0 4px 12px rgba(84, 177, 166, 0.25);
 }
 
 .menu-item.active .menu-icon-wrapper,
@@ -240,9 +197,9 @@
 }
 
 .submenu-item.active {
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 600;
-    background-color: #f0fdf4;
+    background-color: #eef8f6;
 }
 
 /* ===============================
@@ -256,13 +213,10 @@
 
     .sidebar.collapsed {
         width: 260px;
-        /* Maintain full width structure */
         transform: translateX(-100%);
-        /* Hide off-screen */
         padding: 1.5rem 1rem;
     }
 
-    /* Override collapsed styles to keep internal structure intact (hidden off-screen) */
     .sidebar.collapsed .menu-text,
     .sidebar.collapsed .chevron-wrapper {
         display: block !important;
@@ -270,25 +224,19 @@
 
     .sidebar.collapsed .submenu {
         display: none;
-        /* Keep natural behavior, but allow expanded if needed (though tricky if purely CSS override) */
     }
 
     .sidebar.collapsed .submenu.expanded {
         display: block !important;
     }
 
-    .sidebar.collapsed .logo-full {
-        display: flex !important;
-    }
-
-    .sidebar.collapsed .logo-short {
-        display: none !important;
+    .sidebar.collapsed .logo-image {
+        max-width: 180px !important;
     }
 
     .sidebar.collapsed .menu-item {
         justify-content: space-between !important;
         padding: 0.6rem !important;
-        /* Reset padding */
     }
 
     .sidebar.collapsed .icon-label {

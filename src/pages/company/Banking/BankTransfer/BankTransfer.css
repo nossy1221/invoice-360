@@ -27,12 +27,12 @@
 }
 
 .breadcrumb-link {
-    color: #8ce043;
+    color: #54b1a6;
     text-decoration: none;
 }
 
 .btn-success {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     border-radius: 6px;
@@ -89,7 +89,7 @@
 }
 
 .btn-search-green {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     border-radius: 6px;
@@ -303,7 +303,7 @@
 }
 
 .btn-ai-generate {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     border-radius: 6px;
@@ -363,7 +363,7 @@
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 .helper-text {
@@ -373,7 +373,7 @@
 }
 
 .link-text {
-    color: #8ce043;
+    color: #54b1a6;
     cursor: pointer;
     font-weight: 500;
 }
@@ -391,7 +391,7 @@
 
 .btn-create,
 .btn-update {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     padding: 0.6rem 1.5rem;
     border: none;

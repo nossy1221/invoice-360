@@ -75,22 +75,22 @@
 /* Tracker States */
 .tracker-step.completed .step-icon-wrapper {
     background: #ecfdf5;
-    color: #8ce043;
-    border-color: #8ce043;
+    color: #54b1a6;
+    border-color: #54b1a6;
 }
 
 .tracker-step.completed .step-label {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-step.completed .status-badge {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-step.active .step-icon-wrapper {
     background: #f0fdf4;
-    color: #8ce043;
-    border-color: #8ce043;
+    color: #54b1a6;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 4px rgba(140, 224, 67, 0.1);
 }
 
@@ -100,7 +100,7 @@
 }
 
 .tracker-step.active .status-badge {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-divider {
@@ -116,8 +116,8 @@
 }
 
 .tracker-divider.active {
-    background: #8ce043;
-    color: #8ce043;
+    background: #54b1a6;
+    color: #54b1a6;
 }
 
 /* Table Styles from Original */
@@ -204,12 +204,12 @@
 
 .discount-input:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 2px rgba(140, 224, 67, 0.1);
 }
 
 .btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 1.25rem;
@@ -377,7 +377,7 @@
 }
 
 .full-width-input.user-editable:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     background: #fff;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
@@ -411,12 +411,12 @@
 
 .status-indicator {
     text-align: right;
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 700;
     font-size: 0.9rem;
     margin-top: 1rem;
     text-transform: uppercase;
-    border-bottom: 2px solid #8ce043;
+    border-bottom: 2px solid #54b1a6;
     display: inline-block;
     float: right;
     padding-bottom: 2px;
@@ -471,7 +471,7 @@
 }
 
 .btn-add-row {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -678,7 +678,7 @@ table input {
 }
 
 .btn-primary-green {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 2rem;

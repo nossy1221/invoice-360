@@ -26,7 +26,7 @@
 }
 
 .purchase-module-btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -88,14 +88,14 @@
 .purchase-module-tracker-step.active .purchase-module-step-icon {
     background: #f0fdf4;
     /* faint green bg */
-    border: 2px solid #8ce043;
-    color: #8ce043;
+    border: 2px solid #54b1a6;
+    color: #54b1a6;
 }
 
 .purchase-module-tracker-step.completed .purchase-module-step-icon {
     background: #f0fdf4;
-    border: 1px solid #8ce043;
-    color: #8ce043;
+    border: 1px solid #54b1a6;
+    color: #54b1a6;
 }
 
 .purchase-module-status-pill {
@@ -170,11 +170,11 @@
 }
 
 .purchase-module-tracker-divider.active::before {
-    background: #8ce043;
+    background: #54b1a6;
 }
 
 .purchase-module-tracker-divider.active svg {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 /* RESPONSIVE DESIGN */
@@ -452,7 +452,7 @@
 
 .purchase-module-input:focus {
     outline: none;
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 
@@ -482,13 +482,13 @@
 }
 
 .purchase-module-meta-input:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     outline: none;
 }
 
 .purchase-module-quotation-badge {
     text-align: right;
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 700;
     font-size: 13px;
     margin-top: 10px;
@@ -538,7 +538,7 @@
 }
 
 .purchase-module-btn-add-row {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     padding: 8px 16px;
     border-radius: 4px;
@@ -675,7 +675,7 @@
 }
 
 .purchase-module-btn-primary {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     border: none;
     padding: 10px 30px;
@@ -728,7 +728,7 @@
 
 .purchase-toggle-btn.active {
     background-color: white;
-    color: #8ce043;
+    color: #54b1a6;
     /* Brand green */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     font-weight: 600;
@@ -894,7 +894,7 @@
 
 .pp-input:focus,
 .pp-select:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
     outline: none;
 }
@@ -953,7 +953,7 @@
 }
 
 .pp-btn-save {
-    background: #8ce043;
+    background: #54b1a6;
     color: #fff;
 }
 

@@ -142,7 +142,7 @@ const CompanyDashboard = () => {
                         <span>Purchase Bills</span>
                     </div>
                     <div className="secondary-icon text-primary">
-                        <FileText size={24} color="#8ce043" />
+                        <FileText size={24} color="#54b1a6" />
                     </div>
                 </div>
                 <div className="secondary-card">
@@ -178,7 +178,7 @@ const CompanyDashboard = () => {
                                     contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
                                 />
                                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
-                                <Bar dataKey="expense" fill="#8ce043" radius={[4, 4, 0, 0]} barSize={20} name="Purchase/Expense" />
+                                <Bar dataKey="expense" fill="#54b1a6" radius={[4, 4, 0, 0]} barSize={20} name="Purchase/Expense" />
                                 <Bar dataKey="revenue" fill="#1e293b" radius={[4, 4, 0, 0]} barSize={20} name="Sales/Revenue" />
                             </BarChart>
                         </ResponsiveContainer>

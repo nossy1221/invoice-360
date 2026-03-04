@@ -30,7 +30,7 @@
 }
 
 .btn-add {
-    background: #8ce043;
+    background: #54b1a6;
     color: #1a4208;
     border: none;
     padding: 0.6rem 1.25rem;
@@ -120,8 +120,8 @@
 
 .tracker-step.active .step-icon-wrapper {
     background: #f0fdf4;
-    color: #8ce043;
-    border-color: #8ce043;
+    color: #54b1a6;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 4px rgba(140, 224, 67, 0.1);
 }
 
@@ -131,7 +131,7 @@
 }
 
 .tracker-step.active .status-badge {
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .tracker-divider {
@@ -307,7 +307,7 @@
 }
 
 .invoice-link-card:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     background: #f0fdf4;
 }
@@ -483,7 +483,7 @@
 .form-input:focus:not(:disabled),
 .form-select:focus:not(:disabled),
 .form-textarea:focus:not(:disabled) {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -497,7 +497,7 @@
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -777,7 +777,7 @@
 .invoice-title {
     font-size: 3rem;
     font-weight: 800;
-    color: #8ce043;
+    color: #54b1a6;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
 }
@@ -856,7 +856,7 @@
 }
 
 .invoice-items-table thead {
-    background: #8ce043;
+    background: #54b1a6;
 }
 
 .invoice-items-table th {

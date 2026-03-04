@@ -159,7 +159,7 @@ const Services = () => {
         <div className="services-page">
             <div className="page-header">
                 <h1 className="page-title">Services</h1>
-                <button className="btn-add" style={{ backgroundColor: '#8ce043' }} onClick={() => { resetForm(); setShowAddModal(true); }}>
+                <button className="btn-add" style={{ backgroundColor: '#54b1a6' }} onClick={() => { resetForm(); setShowAddModal(true); }}>
                     <Plus size={18} />
                     Add Service
                 </button>
@@ -291,7 +291,7 @@ const Services = () => {
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn-cancel" onClick={() => setShowAddModal(false)}>Cancel</button>
-                                <button type="submit" className="btn-submit" style={{ backgroundColor: '#8ce043' }}>Save Service</button>
+                                <button type="submit" className="btn-submit" style={{ backgroundColor: '#54b1a6' }}>Save Service</button>
                             </div>
                         </form>
                     </div>
@@ -399,7 +399,7 @@ const Services = () => {
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn-cancel" onClick={() => setShowEditModal(false)}>Cancel</button>
-                                <button type="submit" className="btn-submit" style={{ backgroundColor: '#8ce043' }}>Update Service</button>
+                                <button type="submit" className="btn-submit" style={{ backgroundColor: '#54b1a6' }}>Update Service</button>
                             </div>
                         </form>
                     </div>

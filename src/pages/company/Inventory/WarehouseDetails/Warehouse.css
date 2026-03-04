@@ -57,7 +57,7 @@
 .btn-create-modal {
     padding: 10px 24px;
     border-radius: 6px;
-    background-color: #8ce043;
+    background-color: #54b1a6;
     /* Teal/Green like image */
     color: white;
     border: none;
@@ -150,9 +150,9 @@
 }
 
 .pagination-btn.active {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 .pagination-btn.disabled {

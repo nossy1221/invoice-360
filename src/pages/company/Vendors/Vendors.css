@@ -18,7 +18,7 @@
 }
 
 .Vendors-btn-add {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -113,8 +113,8 @@
 }
 
 .Vendors-badge {
-    border: 1px solid #8ce043;
-    color: #8ce043;
+    border: 1px solid #54b1a6;
+    color: #54b1a6;
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
     font-weight: 600;
@@ -194,9 +194,9 @@
 }
 
 .Vendors-pagination-btn.Vendors-active {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
-    border-color: #8ce043;
+    border-color: #54b1a6;
 }
 
 .Vendors-pagination-btn.Vendors-disabled {
@@ -335,7 +335,7 @@
 .Vendors-form-input:focus,
 .Vendors-form-select:focus,
 .Vendors-form-textarea:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 3px rgba(140, 224, 67, 0.1);
 }
 
@@ -354,7 +354,7 @@
 }
 
 .Vendors-btn-action-small {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -488,7 +488,7 @@
 }
 
 .Vendors-btn-save {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     padding: 0.6rem 1.5rem;
     border-radius: 8px;

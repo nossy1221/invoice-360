@@ -21,7 +21,7 @@
 }
 
 .superPayments-add-btn {
-    background: linear-gradient(135deg, #8ce043, #8ce043);
+    background: linear-gradient(135deg, #54b1a6, #54b1a6);
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 10px;
@@ -70,7 +70,7 @@
 }
 
 .superPayments-form-control:focus {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
 }
 
@@ -126,7 +126,7 @@
     width: 32px;
     height: 32px;
     background: #eff6ff;
-    color: #8ce043;
+    color: #54b1a6;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -292,7 +292,7 @@
 }
 
 .superPayments-btn-save {
-    background: #8ce043;
+    background: #54b1a6;
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 12px;

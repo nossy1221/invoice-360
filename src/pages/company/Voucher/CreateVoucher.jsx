@@ -351,7 +351,7 @@ const CreateVoucher = () => {
         <div className="voucher-page">
             <div className="page-header">
                 <h1 className="page-title">Vouchers</h1>
-                <button className="btn-add" style={{ backgroundColor: '#8ce043' }} onClick={() => setShowAddModal(true)}>
+                <button className="btn-add" style={{ backgroundColor: '#54b1a6' }} onClick={() => setShowAddModal(true)}>
                     <Plus size={18} />
                     Create Voucher
                 </button>
@@ -796,7 +796,7 @@ const CreateVoucher = () => {
                                         </table>
                                     </div>
 
-                                    <button className="btn-add-item-link" onClick={handleAddItem} style={{ color: '#8ce043', borderColor: '#8ce043' }}>
+                                    <button className="btn-add-item-link" onClick={handleAddItem} style={{ color: '#54b1a6', borderColor: '#54b1a6' }}>
                                         + Add Item
                                     </button>
 
@@ -834,7 +834,7 @@ const CreateVoucher = () => {
                                             <img src={signature} alt="Signature" style={{ maxHeight: '80px', borderBottom: '1px solid #eee' }} />
                                         </div>
                                     )}
-                                    <button className="btn-upload-signature" onClick={handleSignatureUpload} style={{ backgroundColor: '#8ce043' }}>
+                                    <button className="btn-upload-signature" onClick={handleSignatureUpload} style={{ backgroundColor: '#54b1a6' }}>
                                         <Upload size={16} /> Upload Signature
                                     </button>
                                 </div>
@@ -842,7 +842,7 @@ const CreateVoucher = () => {
                         </div>
                         <div className="modal-footer">
                             <button className="btn-cancel" onClick={handleCloseModal}>Cancel</button>
-                            <button className="btn-submit" style={{ backgroundColor: '#8ce043' }} onClick={handleSubmit}>
+                            <button className="btn-submit" style={{ backgroundColor: '#54b1a6' }} onClick={handleSubmit}>
                                 {showEditModal ? 'Update Voucher' : 'Save Voucher'}
                             </button>
                         </div>

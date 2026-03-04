@@ -72,8 +72,8 @@
 }
 
 .companySetting-tab-btn.active {
-    color: #8ce043;
-    border-bottom-color: #8ce043;
+    color: #54b1a6;
+    border-bottom-color: #54b1a6;
 }
 
 /* Content */
@@ -118,7 +118,7 @@
     position: absolute;
     left: 12px;
     top: 12px;
-    color: #8ce043;
+    color: #54b1a6;
 }
 
 .companySetting-form-group input,
@@ -303,7 +303,7 @@
 }
 
 .switch-input:checked+.switch-toggle {
-    background: #8ce043;
+    background: #54b1a6;
 }
 
 .switch-input:checked+.switch-toggle::before {

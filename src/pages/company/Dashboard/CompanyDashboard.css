@@ -136,7 +136,7 @@
     align-items: center;
     margin-bottom: 1.5rem;
     /* The "Image 2" style vertical green line */
-    border-left: 4px solid #8ce043;
+    border-left: 4px solid #54b1a6;
     padding-left: 1rem;
 }
 
@@ -211,7 +211,7 @@
     /* Image 2 style marker */
     border-left: 4px solid #ef4444;
     /* Image 1 uses red for 'Top Selling' marker? Or stick to green? User said "design second image". Second image uses Green markers. I'll use Green for standard, but Image 1 has Dot markers. I will combine: Green Border Left as the primary "Card" style requested. */
-    border-left-color: #8ce043;
+    border-left-color: #54b1a6;
     display: flex;
     justify-content: space-between;
     align-items: center;

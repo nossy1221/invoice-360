@@ -217,7 +217,7 @@ const StockTransfer = () => {
         <div className="stock-transfer-page">
             <div className="page-header">
                 <h1 className="page-title">Stock Transfer</h1>
-                <button className="btn-add" style={{ backgroundColor: '#8ce043' }} onClick={handleOpenAdd}>
+                <button className="btn-add" style={{ backgroundColor: '#54b1a6' }} onClick={handleOpenAdd}>
                     <Plus size={18} />
                     Add Stock Transfer
                 </button>
@@ -483,7 +483,7 @@ const StockTransfer = () => {
                             <button className="btn-cancel" onClick={() => setShowAddModal(false)}>Cancel</button>
                             <button
                                 className="btn-submit"
-                                style={{ backgroundColor: '#8ce043' }}
+                                style={{ backgroundColor: '#54b1a6' }}
                                 onClick={handleAddSubmit}
                                 disabled={submitting}
                             >

@@ -66,7 +66,7 @@
 }
 
 .logo-upload-area:hover {
-    border-color: #8ce043;
+    border-color: #54b1a6;
     background-color: #f0fdf4;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .btn-add-product {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     padding: 6px 14px;
@@ -185,7 +185,7 @@
 }
 
 .btn-upload-signature {
-    background-color: #8ce043;
+    background-color: #54b1a6;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -206,8 +206,8 @@
 .btn-add-item-link {
     display: block;
     background: none;
-    border: 1px solid #8ce043;
-    color: #8ce043;
+    border: 1px solid #54b1a6;
+    color: #54b1a6;
     padding: 4px 12px;
     border-radius: 4px;
     font-size: 0.75rem;

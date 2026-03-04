@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { Mail, Lock, ArrowRight } from 'lucide-react';
 import toast from 'react-hot-toast';
 import './Login.css';
+import sideLogo from '../../assets/Images/side-logo.png';
+import logoImg from '../../assets/Images/logo.png';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -58,9 +60,7 @@ const Login = () => {
                 {/* LEFT SIDE – LOGIN */}
                 <div className="login-card">
                     <div className="login-header">
-                        <h1 className="logo-text">
-                            <span className="accent">Zirak</span> Books
-                        </h1>
+                        <img src={logoImg} alt="Invoice 360" className="login-logo" />
                         <p className="login-subtext">
                             Welcome back! Please sign in to continue.
                         </p>
@@ -150,9 +150,8 @@ const Login = () => {
                 {/* RIGHT SIDE – BRANDING */}
                 <div className="brand-card">
                     <img
-                        // src="https://zirak-book.netlify.app/assets/account-D0hzE4k5.jpg"
-                        src="https://i.ibb.co/PvMV0BpB/image.png"
-                        alt="Accounting"
+                        src={sideLogo}
+                        alt="Invoice 360"
                         className="brand-image"
                     />
                     <h2>Smart Accounting Solutions</h2>

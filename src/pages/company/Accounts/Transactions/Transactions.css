@@ -127,8 +127,8 @@
 }
 
 .voucher-badge {
-    border: 1px solid #8ce043;
-    color: #8ce043;
+    border: 1px solid #54b1a6;
+    color: #54b1a6;
     padding: 4px 10px;
     border-radius: 4px;
     font-weight: 600;
@@ -144,7 +144,7 @@
 }
 
 .text-success {
-    color: #8ce043;
+    color: #54b1a6;
     font-weight: 600;
 }
 

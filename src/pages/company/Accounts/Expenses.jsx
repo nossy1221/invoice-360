@@ -470,7 +470,7 @@ const ExpensesAccount = () => {
               <div className="ac-modal-form-row">
                 <div className="ac-modal-form-col">
                   <label className="ac-modal-label">Paid To</label>
-                  <select className="ac-modal-input" value={formData.paidToLedgerId} onChange={e => setFormData({ ...formData, paidToLedgerId: e.target.value })} style={{ borderColor: '#8ce043' }}>
+                  <select className="ac-modal-input" value={formData.paidToLedgerId} onChange={e => setFormData({ ...formData, paidToLedgerId: e.target.value })} style={{ borderColor: '#54b1a6' }}>
                     <option value="">Select Account or Vendor</option>
                     {expenseLedgers.map(ledger => (
                       <option key={ledger.id} value={ledger.id}>{ledger.name}</option>
